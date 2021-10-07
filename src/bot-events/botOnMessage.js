@@ -103,6 +103,19 @@ const botOnMessage = (bot, store) => {
         bot.sendMessage(938358368, message.youHaveRejectCandidat(), options);
         break;
     }
+
+    if (!Object.values(ACTION_KB).find(val => val === msg.text)) {
+      if (msg.text.length < 3) {
+        bot.sendMessage(msg.chat.id, message.toShortForSearch(), options);
+        return;
+      }
+      const emplByPartOfName = await api.getEmplByPartOfName(msg.text);
+      bot.sendMessage(
+        msg.chat.id,
+        message.listEmplByPartOfName(emplByPartOfName),
+        options
+      );
+    }
   });
 };
 

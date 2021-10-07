@@ -9,6 +9,7 @@ const config = require('./config');
 require('./db/mongo-instance');
 
 const botStart = require('./bot-events/botStart');
+const botHelp = require('./bot-events/botHelp');
 const botOnMessage = require('./bot-events/botOnMessage');
 const botCallbackQuery = require('./bot-events/botCallbackQuery');
 
@@ -23,6 +24,8 @@ const Store = require('./Store');
 const store = new Store();
 
 botStart(bot, store);
+
+botHelp(bot, store);
 
 botOnMessage(bot, store);
 

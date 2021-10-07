@@ -2,8 +2,8 @@ const api = require('../db/api');
 const KB = require('../keyboards');
 const message = require('../messages');
 
-const botStart = (bot, store) => {
-  bot.onText(/^\/start/, async msg => {
+const botHelp = (bot, store) => {
+  bot.onText(/^\/help/, async msg => {
     try {
       const options = {
         parse_mode: 'HTML'
@@ -26,39 +26,15 @@ const botStart = (bot, store) => {
 
         bot.sendMessage(
           msg.chat.id,
-          message.messageToNewUser(
-            msg.from.first_name,
-            msg.from.username,
-            msg.chat.id
-          ),
-          options
-        );
-
-        options.reply_markup = {
-          keyboard: KB.newUserKb,
-          resize_keyboard: true,
-          one_time_keyboard: true
-        };
-
-        bot.sendMessage(
-          938358368,
-          message.messageToCreator(
-            msg.from.first_name,
-            msg.from.username,
-            msg.chat.id
-          ),
+          'Нічим допомогти не можу. Я Вас не знаю',
           options
         );
       } else {
-        options.reply_markup = {
-          keyboard: KB.birthsdayKb,
-          resize_keyboard: true
-        };
-        bot.sendMessage(msg.chat.id, `Оберіть опцію`, options);
+        bot.sendMessage(msg.chat.id, message.helpMessage(), options);
       }
     } catch (e) {
       console.log(e);
     }
   });
 };
-module.exports = botStart;
+module.exports = botHelp;

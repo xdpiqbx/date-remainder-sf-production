@@ -101,7 +101,11 @@ const getEmplByPartOfName = async str => {
     .select('name day mon birthsday')
     .collation({ locale: 'uk' })
     .sort({ name: 'asc' });
-  return heroesOfOccasion;
+
+  return heroesOfOccasion.filter(item => {
+    const arrName = item.name.split(' ');
+    return [arrName[0], arrName[1]].find(name => name.startsWith(str));
+  });
 };
 
 const getEmployerByChatId = async chatId => {
