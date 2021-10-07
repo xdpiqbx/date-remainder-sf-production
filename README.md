@@ -1,1 +1,1 @@
-# date-remainder-sf-production
+# date-remainder-bot

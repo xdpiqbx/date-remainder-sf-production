@@ -1,0 +1,1677 @@
+[{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1d7"
+  },
+  "name": "Калашник Андрій Сергійович",
+  "birthsday": {
+    "$date": "1986-01-23T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380982948502",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf4"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfbff"
+  },
+  "day": 23,
+  "mon": 0,
+  "year": 1986
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1d8"
+  },
+  "name": "Косяков Михайло Валерійович",
+  "birthsday": {
+    "$date": "1981-07-16T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380979835381",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf4"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc00"
+  },
+  "day": 16,
+  "mon": 6,
+  "year": 1981
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1d9"
+  },
+  "name": "Миколайчук Олександр Васильович",
+  "birthsday": {
+    "$date": "1988-09-17T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380678388222",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc01"
+  },
+  "day": 17,
+  "mon": 8,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1da"
+  },
+  "name": "Сухарєв Ілля Геннадійович",
+  "birthsday": {
+    "$date": "1986-06-17T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380938838878",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc02"
+  },
+  "day": 17,
+  "mon": 5,
+  "year": 1986
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1db"
+  },
+  "name": "Солодковський Дмитро Олександрович",
+  "birthsday": {
+    "$date": "1987-12-15T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380673492516",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 15,
+  "mon": 11,
+  "year": 1987
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1dc"
+  },
+  "name": "Остапчук Микола Васильович",
+  "birthsday": {
+    "$date": "1990-07-27T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380633761531",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 27,
+  "mon": 6,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1dd"
+  },
+  "name": "Музиченко Олександр Олександрович",
+  "birthsday": {
+    "$date": "1988-09-28T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380937182351",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 28,
+  "mon": 8,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1de"
+  },
+  "name": "Бобровський Юрій Анатолійович",
+  "birthsday": {
+    "$date": "1982-08-20T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380668995525",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 20,
+  "mon": 7,
+  "year": 1982
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1df"
+  },
+  "name": "Сальченко Олексій Юрійович",
+  "birthsday": {
+    "$date": "1985-11-21T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380931000902",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 21,
+  "mon": 10,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e0"
+  },
+  "name": "Гринюк Іван Володимирович",
+  "birthsday": {
+    "$date": "1992-07-07T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380989516217",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 7,
+  "mon": 6,
+  "year": 1992
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e1"
+  },
+  "name": "Гнатенко Микола Миколайович",
+  "birthsday": {
+    "$date": "1990-08-12T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380994140782",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 12,
+  "mon": 7,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e2"
+  },
+  "name": "Логвиненко Олексій Андрійович",
+  "birthsday": {
+    "$date": "1993-11-22T08:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380990553872",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 22,
+  "mon": 10,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e3"
+  },
+  "name": "Воропаєв Олександр Андрійович",
+  "birthsday": {
+    "$date": "1990-04-01T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380939604257",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 1,
+  "mon": 3,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e4"
+  },
+  "name": "Пилипчук Андрій Олександрович",
+  "birthsday": {
+    "$date": "1993-03-27T08:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380639742955",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf9"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 27,
+  "mon": 2,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e5"
+  },
+  "name": "Молодан Валентин Олександрович",
+  "birthsday": {
+    "$date": "1991-05-20T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380503017740",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf9"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0e"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 20,
+  "mon": 4,
+  "year": 1991
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e6"
+  },
+  "name": "Криворучко Анатолій Володимирович",
+  "birthsday": {
+    "$date": "1984-03-02T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380938151921",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc01"
+  },
+  "day": 2,
+  "mon": 2,
+  "year": 1984
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e7"
+  },
+  "name": "Газарян Давид Алексанович",
+  "birthsday": {
+    "$date": "1989-12-11T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380502857312",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 11,
+  "mon": 11,
+  "year": 1989
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e8"
+  },
+  "name": "Помагайко Денис Олександрович",
+  "birthsday": {
+    "$date": "1991-01-06T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380639437778",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 6,
+  "mon": 0,
+  "year": 1991
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1e9"
+  },
+  "name": "Данилюк Артур Васильович",
+  "birthsday": {
+    "$date": "1989-03-28T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380987187217",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 28,
+  "mon": 2,
+  "year": 1989
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ea"
+  },
+  "name": "Малишкін Роман Геннадійович",
+  "birthsday": {
+    "$date": "1990-11-14T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380955523707",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 14,
+  "mon": 10,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1eb"
+  },
+  "name": "Дехтярук Олександр Сергійович",
+  "birthsday": {
+    "$date": "1987-02-24T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380989940733",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 24,
+  "mon": 1,
+  "year": 1987
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ec"
+  },
+  "name": "Козубов Олександр Борисович",
+  "birthsday": {
+    "$date": "1988-10-05T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380669397179",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 5,
+  "mon": 9,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ed"
+  },
+  "name": "Цегельний Богдан Вікторович",
+  "birthsday": {
+    "$date": "1991-02-07T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380960041212",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 7,
+  "mon": 1,
+  "year": 1991
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ee"
+  },
+  "name": "Гусаров Сергій Ігорович",
+  "birthsday": {
+    "$date": "1988-03-29T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380978252323",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 29,
+  "mon": 2,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ef"
+  },
+  "name": "Поліщук Дмитро Анатолійович",
+  "birthsday": {
+    "$date": "1993-03-30T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380683662697",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 30,
+  "mon": 2,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f0"
+  },
+  "name": "Сочивець Олександр Юрійович",
+  "birthsday": {
+    "$date": "1990-07-26T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380634686600",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 26,
+  "mon": 6,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f1"
+  },
+  "name": "Словецький Володимир Петрович",
+  "birthsday": {
+    "$date": "1992-06-09T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380938113010",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 9,
+  "mon": 5,
+  "year": 1992
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f2"
+  },
+  "name": "Михайлов Геннадій Анатолійович",
+  "birthsday": {
+    "$date": "1986-01-15T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380731698458",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf9"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc0f"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 15,
+  "mon": 0,
+  "year": 1986
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f3"
+  },
+  "name": "Алексєєв Олександр Ігорович",
+  "birthsday": {
+    "$date": "1971-08-09T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380982826016",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf4"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc01"
+  },
+  "day": 9,
+  "mon": 7,
+  "year": 1971
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f4"
+  },
+  "name": "Єсіков Володимир Володимирович",
+  "birthsday": {
+    "$date": "1987-01-13T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380990119044",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc02"
+  },
+  "day": 13,
+  "mon": 0,
+  "year": 1987
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f5"
+  },
+  "name": "Бернадський Роман Костянтинович",
+  "birthsday": {
+    "$date": "1985-05-31T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380967003552",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 31,
+  "mon": 4,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f6"
+  },
+  "name": "Репков Федір Федорович",
+  "birthsday": {
+    "$date": "1988-06-23T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380977198528",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 23,
+  "mon": 5,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f7"
+  },
+  "name": "Особський Микола Миколайович",
+  "birthsday": {
+    "$date": "1985-09-27T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380978250082",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 27,
+  "mon": 8,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f8"
+  },
+  "name": "Приліпко Іван Петрович",
+  "birthsday": {
+    "$date": "1993-07-08T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380938122388",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 8,
+  "mon": 6,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1f9"
+  },
+  "name": "Бойко Володимир Петрович",
+  "birthsday": {
+    "$date": "1989-02-17T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380633375214",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 17,
+  "mon": 1,
+  "year": 1989
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1fa"
+  },
+  "name": "Грищенко Валерій Олександрович",
+  "birthsday": {
+    "$date": "1988-03-12T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380953793616",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 12,
+  "mon": 2,
+  "year": 1988
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1fb"
+  },
+  "name": "Березовий Валентин Олександрович",
+  "birthsday": {
+    "$date": "1984-09-09T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380971172158",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 9,
+  "mon": 8,
+  "year": 1984
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1fc"
+  },
+  "name": "Гончаров Віталій Борисович",
+  "birthsday": {
+    "$date": "1977-11-19T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380956997710",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 19,
+  "mon": 10,
+  "year": 1977
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1fd"
+  },
+  "name": "Попадинець Олександр Васильович",
+  "birthsday": {
+    "$date": "1985-03-24T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380951979571",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 24,
+  "mon": 2,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1fe"
+  },
+  "name": "Воловик Іван В'ячеславович",
+  "birthsday": {
+    "$date": "1993-07-07T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380992502625",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 7,
+  "mon": 6,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a1ff"
+  },
+  "name": "Безкоровайний Арсен Олегович",
+  "birthsday": {
+    "$date": "1992-06-15T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380996154727",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 15,
+  "mon": 5,
+  "year": 1992
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a200"
+  },
+  "name": "Тельонков Дмитро Вячеславович",
+  "birthsday": {
+    "$date": "1994-09-24T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380955383199",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 24,
+  "mon": 8,
+  "year": 1994
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a201"
+  },
+  "name": "Максимчук Семен Вікторович",
+  "birthsday": {
+    "$date": "1986-10-30T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380677305169",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 30,
+  "mon": 9,
+  "year": 1986
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a202"
+  },
+  "name": "Бобик Максим Дмитрович",
+  "birthsday": {
+    "$date": "1990-04-23T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380976549571",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf9"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc10"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 23,
+  "mon": 3,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a203"
+  },
+  "name": "Первак Сергій Миколайович",
+  "birthsday": {
+    "$date": "1975-06-23T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380685286002",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc01"
+  },
+  "day": 23,
+  "mon": 5,
+  "year": 1975
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a204"
+  },
+  "name": "Усенко Артем Олександрович",
+  "birthsday": {
+    "$date": "1985-02-24T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380674337875",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 24,
+  "mon": 1,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a205"
+  },
+  "name": "Момот Андрій Григорович",
+  "birthsday": {
+    "$date": "1990-01-17T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380919598888",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 17,
+  "mon": 0,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a206"
+  },
+  "name": "Олексієнко Роман Олександрович",
+  "birthsday": {
+    "$date": "1992-06-06T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380632504182",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 6,
+  "mon": 5,
+  "year": 1992
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a207"
+  },
+  "name": "Ярошенко Костянтин Віталійович",
+  "birthsday": {
+    "$date": "1979-07-08T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380974222051",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 8,
+  "mon": 6,
+  "year": 1979
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a208"
+  },
+  "name": "Лук'яненко Владислав Павлович",
+  "birthsday": {
+    "$date": "1973-09-21T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380985960920",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc04"
+  },
+  "day": 21,
+  "mon": 8,
+  "year": 1973
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a209"
+  },
+  "name": "Анісімов Олександр Олександрович",
+  "birthsday": {
+    "$date": "1975-11-02T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380677172154",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 2,
+  "mon": 10,
+  "year": 1975
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20a"
+  },
+  "name": "Вітвіцький Олексій Вікторович",
+  "birthsday": {
+    "$date": "1987-01-12T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380976596734",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 12,
+  "mon": 0,
+  "year": 1987
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20b"
+  },
+  "name": "Кулясов Юрій Миколайович",
+  "birthsday": {
+    "$date": "1990-06-04T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380962366794",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc11"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc05"
+  },
+  "day": 4,
+  "mon": 5,
+  "year": 1990
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20c"
+  },
+  "name": "Крайняк Ігор Сергійович",
+  "birthsday": {
+    "$date": "1984-05-23T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380676798181",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc12"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc01"
+  },
+  "day": 23,
+  "mon": 4,
+  "year": 1984
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20d"
+  },
+  "name": "Ритко Ярослав Олександрович",
+  "birthsday": {
+    "$date": "1985-08-24T06:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380935693559",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf5"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc12"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 24,
+  "mon": 7,
+  "year": 1985
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20e"
+  },
+  "name": "Михайлик Ярослав Олександрович",
+  "birthsday": {
+    "$date": "1987-01-16T07:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380969358849",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf6"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc12"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 16,
+  "mon": 0,
+  "year": 1987
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a20f"
+  },
+  "name": "Шілімов Віктор Євгенович",
+  "birthsday": {
+    "$date": "1993-02-03T08:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380950681165",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf7"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc12"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 3,
+  "mon": 1,
+  "year": 1993
+},{
+  "_id": {
+    "$oid": "615acb3a2f0ac80b1447a210"
+  },
+  "name": "Журавльов Андрій Андрійович",
+  "birthsday": {
+    "$date": "1994-03-14T08:00:00Z"
+  },
+  "tlg_chatId": null,
+  "status": 9,
+  "phone": "380979779119",
+  "gradeId": {
+    "$oid": "6159a260aeff6520846bfbf8"
+  },
+  "depId": {
+    "$oid": "6159be17aeff6520846bfc12"
+  },
+  "mmId": {
+    "$oid": "6159abdeaeff6520846bfc06"
+  },
+  "managId": {
+    "$oid": "6159ae18aeff6520846bfc0d"
+  },
+  "posId": {
+    "$oid": "6159a844aeff6520846bfc03"
+  },
+  "day": 14,
+  "mon": 2,
+  "year": 1994
+}]

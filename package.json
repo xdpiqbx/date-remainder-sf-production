@@ -1,0 +1,31 @@
+{
+  "name": "date-remainder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdpiqbx/date-remainder-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdpiqbx/date-remainder-bot/issues"
+  },
+  "homepage": "https://github.com/xdpiqbx/date-remainder-bot#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "date-fns": "^2.24.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.8",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
