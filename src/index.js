@@ -12,6 +12,7 @@ const botStart = require('./bot-events/botStart');
 const botHelp = require('./bot-events/botHelp');
 const botOnMessage = require('./bot-events/botOnMessage');
 const botCallbackQuery = require('./bot-events/botCallbackQuery');
+const { delay, getCronTimerString } = require('./helpers');
 
 const TelegramBot = require('node-telegram-bot-api');
 
@@ -31,23 +32,30 @@ botOnMessage(bot, store);
 
 botCallbackQuery(bot, store);
 
+const cronTimer = {
+  weekDay: '*',
+  month: '*',
+  date: '*',
+  time: '09:00:00'
+};
+
 const cronJob = new CronJob(
-  '00 00 09 * * *',
+  getCronTimerString(cronTimer),
   async () => {
     const tlg_chatIds = await api.getAllChatId();
     const todayBirthdays = await api.getTodayBirthdays();
-
     const options = {
       parse_mode: 'HTML'
     };
-
-    tlg_chatIds.forEach(({ tlg_chatId }) => {
+    for (let chatId of tlg_chatIds) {
       bot.sendMessage(
-        tlg_chatId,
-        message.listBirthdaysForToday(todayBirthdays),
+        chatId.tlg_chatId,
+        '<b>Нагадування</b> 🌟\n' +
+          message.listBirthdaysForToday(todayBirthdays),
         options
       );
-    });
+      await delay(500);
+    }
   },
   null,
   true,

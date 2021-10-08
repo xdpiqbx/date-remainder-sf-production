@@ -9,6 +9,9 @@ const botCallbackQuery = (bot, store) => {
     const options = {
       parse_mode: 'HTML'
     };
+
+    bot.answerCallbackQuery(query.id, { show_alert: false });
+
     switch (action) {
       case IKB.ACTIONS.SELECT_EMPLOYER:
         const { _id } = JSON.parse(query.data);

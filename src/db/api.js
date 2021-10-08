@@ -111,7 +111,7 @@ const getEmplByPartOfName = async str => {
 const getEmployerByChatId = async chatId => {
   const employer = await Employer.findOne({ tlg_chatId: chatId })
     .select('name tlg_chatId status mmId managId')
-    .populate('mmId managId', 'mmIdx mgtIdx -_id');
+    .populate('mmId managId', 'mmIdx mgtIdx');
   return employer;
 };
 

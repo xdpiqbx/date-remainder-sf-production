@@ -26,7 +26,23 @@ const happyBirthsdayList = rawList => {
     .join('\n\n');
 };
 
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+const getCronTimerString = cronTimer => {
+  const [hours, minutes, seconds] = cronTimer.time.split(':');
+  return [
+    seconds,
+    minutes,
+    hours,
+    cronTimer.date,
+    cronTimer.month,
+    cronTimer.weekDay
+  ].join(' ');
+};
+
 module.exports = {
   monthes,
-  happyBirthsdayList
+  happyBirthsdayList,
+  delay,
+  getCronTimerString
 };

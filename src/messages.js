@@ -7,6 +7,7 @@ module.exports = {
   },
 
   whomAreWeAdding: () => [`<b>Кого додаємо?</b>`].join('\n'),
+  choseTheMonth: () => [`<b>Оберіть місяць</b>`].join('\n'),
   candidatReject: () => {
     return [`<b>Вам відмовлено у доступі.</b>`].join('\n');
   },

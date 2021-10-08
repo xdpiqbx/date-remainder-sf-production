@@ -70,7 +70,7 @@ const botOnMessage = (bot, store) => {
           )
         };
         //answer_callback_query
-        bot.sendMessage(msg.chat.id, message.whomAreWeAdding(), options);
+        bot.sendMessage(msg.chat.id, message.choseTheMonth(), options);
 
         break;
       case ACTION_KB.ADD_NEW_USER:
