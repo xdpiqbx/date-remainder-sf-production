@@ -2,13 +2,16 @@ const format = require('date-fns/format');
 const { uk } = require('date-fns/locale');
 
 const Employer = require('../db/model/employer-mod');
+const Management = require('../db/model/management-mod');
 
-// все у кого сегодня <<< ---------- DONE !!!
-// все у кого завтра <<< ----------- DONE !!!
-// все у кого в этом месяце <<< ---- DONE !!!
-// все у кого в след месяце <<< ---- DONE !!!
-// все месяца и дням <<< ----------- DONE !!!
-// поиск по части ф, и или о <<< --- DONE !!!
+const helper = require('../helpers');
+
+// все у кого сегодня <<<---------- DONE !!!
+// все у кого завтра <<<----------- DONE !!!
+// все у кого в этом месяце <<<---- DONE !!!
+// все у кого в след месяце <<<---- DONE !!!
+// все месяца и дням <<<----------- DONE !!!
+// поиск по части ф, и или о <<<--- DONE !!!
 
 const getTodayBirthdays = async () => {
   const today = new Date();
@@ -42,31 +45,42 @@ const getTomorrowBirthdays = async () => {
   }
 };
 
-const getThisMonthBirthdays = async () => {
+const getThisMonthBirthdays = async (status, mgtIdx) => {
   const today = new Date();
   const mon = today.getMonth();
   try {
     const arrThisMonthBirthdays = await Employer.find({ mon })
-      .select('name day birthsday')
+      .select('name day birthsday managId')
+      .populate('managId', 'mgtIdx -_id')
       .collation({ locale: 'uk' })
       .sort({ name: 'asc' });
     arrThisMonthBirthdays.sort((a, b) => a.day - b.day);
-    return arrThisMonthBirthdays;
+
+    return helper.apiSplitCamaradesAndOthers(
+      arrThisMonthBirthdays,
+      mgtIdx,
+      status
+    );
   } catch (e) {
     console.log(e);
   }
 };
 
-const getNextMonthBirthdays = async () => {
+const getNextMonthBirthdays = async (status, mgtIdx) => {
   const today = new Date();
   const mon = today.getMonth() + 1;
   try {
     const arrNextMonthBirthdays = await Employer.find({ mon })
       .select('name day birthsday')
+      .populate('managId', 'mgtIdx -_id')
       .collation({ locale: 'uk' })
       .sort({ name: 'asc' });
     arrNextMonthBirthdays.sort((a, b) => a.day - b.day);
-    return arrNextMonthBirthdays;
+    return helper.apiSplitCamaradesAndOthers(
+      arrNextMonthBirthdays,
+      mgtIdx,
+      status
+    );
   } catch (e) {
     console.log(e);
   }
@@ -85,33 +99,40 @@ const getAllUnicMonthesLabels = async () => {
   return allMonthesWithLabels;
 };
 
-const getBirthdaysFromSelectedMonth = async month => {
-  const heroesOfOccasion = await Employer.find({ mon: month })
+const getBirthdaysFromSelectedMonth = async (mon, status, mgtIdx) => {
+  const heroesOfOccasion = await Employer.find({ mon })
     .select('name day birthsday')
+    .populate('managId', 'mgtIdx -_id')
     .collation({ locale: 'uk' })
     .sort({ name: 'asc' });
   heroesOfOccasion.sort((a, b) => a.day - b.day);
-  return heroesOfOccasion;
+  return helper.apiSplitCamaradesAndOthers(heroesOfOccasion, mgtIdx, status);
 };
 
 const getEmplByPartOfName = async str => {
+  const normalizeStr = string => {
+    string = string.trim().toLowerCase();
+    return string.charAt(0).toUpperCase() + string.slice(1, string.length);
+  };
   const heroesOfOccasion = await Employer.find({
-    name: { $regex: str, $options: '$i' }
+    name: new RegExp(normalizeStr(str), 'i')
   })
     .select('name day mon birthsday')
-    .collation({ locale: 'uk' })
+    .collation({ locale: 'uk', strength: 2 })
     .sort({ name: 'asc' });
 
   return heroesOfOccasion.filter(item => {
     const arrName = item.name.split(' ');
-    return [arrName[0], arrName[1]].find(name => name.startsWith(str));
+    return [arrName[0], arrName[1]].find(name =>
+      name.startsWith(normalizeStr(str))
+    );
   });
 };
 
 const getEmployerByChatId = async chatId => {
   const employer = await Employer.findOne({ tlg_chatId: chatId })
     .select('name tlg_chatId status mmId managId')
-    .populate('mmId managId', 'mmIdx mgtIdx');
+    .populate('mmId managId posId', 'mmIdx mgtIdx posIdx');
   return employer;
 };
 
@@ -133,6 +154,25 @@ const getAllEmployersWithoutChatId = async () => {
       .collation({ locale: 'uk' })
       .sort({ name: 'asc' });
     return employers;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+const getAllManagements = async () => {
+  try {
+    return await Management.find({}).select('mgtIdx short');
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+const getAllEmployersWithoutChatIdByManageId = async managId => {
+  try {
+    return await Employer.find({ managId: managId, tlg_chatId: null })
+      .select('name')
+      .collation({ locale: 'uk' })
+      .sort({ name: 'asc' });
   } catch (e) {
     console.log(e);
   }
@@ -175,7 +215,9 @@ module.exports = {
   getEmployerByChatId,
   getAllEmployersWithoutChatId,
   addChatIdToEmployer,
-  getAllChatId
+  getAllChatId,
+  getAllManagements,
+  getAllEmployersWithoutChatIdByManageId
   // getAllEmployers
 };
 

@@ -27,6 +27,10 @@ const botOnMessage = (bot, store) => {
     const options = {
       parse_mode: 'HTML'
     };
+
+    const mgtIdx = store.getEmployerData('managId')?.mgtIdx ?? null;
+    const status = store.getEmployerData('status');
+
     switch (msg.text) {
       case ACTION_KB.TODAY:
         const todayBirthdays = await api.getTodayBirthdays();
@@ -45,7 +49,10 @@ const botOnMessage = (bot, store) => {
         );
         break;
       case ACTION_KB.THIS_MONTH:
-        const thisMonthBirthdays = await api.getThisMonthBirthdays();
+        const thisMonthBirthdays = await api.getThisMonthBirthdays(
+          status,
+          mgtIdx
+        );
         bot.sendMessage(
           msg.chat.id,
           message.listBirthdaysForThisMonth(thisMonthBirthdays),
@@ -53,7 +60,10 @@ const botOnMessage = (bot, store) => {
         );
         break;
       case ACTION_KB.NEXT_MONTH:
-        const nextMonthBirthdays = await api.getNextMonthBirthdays();
+        const nextMonthBirthdays = await api.getNextMonthBirthdays(
+          status,
+          mgtIdx
+        );
         bot.sendMessage(
           msg.chat.id,
           message.listBirthdaysForNextMonth(nextMonthBirthdays),
@@ -74,11 +84,11 @@ const botOnMessage = (bot, store) => {
 
         break;
       case ACTION_KB.ADD_NEW_USER:
-        const employersWithoutChatId = await api.getAllEmployersWithoutChatId();
+        const allManagements = await api.getAllManagements();
         options.reply_markup = {
-          inline_keyboard: IKB.employersToInlineKeyboard(
-            employersWithoutChatId,
-            IKB.ACTIONS.SELECT_EMPLOYER
+          inline_keyboard: IKB.managementsToInlineKeyboard(
+            allManagements,
+            IKB.ACTIONS.SELECT_MANAGEMENT
           )
         };
         bot.sendMessage(938358368, message.whomAreWeAdding(), options);
