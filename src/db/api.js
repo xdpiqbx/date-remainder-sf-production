@@ -67,10 +67,13 @@ const getThisMonthBirthdays = async (status, mgtIdx) => {
 };
 
 const getNextMonthBirthdays = async (status, mgtIdx) => {
-  const today = new Date();
-  const mon = today.getMonth() + 1;
+  const date = new Date();
+  date.setMonth(date.getMonth() + 1);
+  const nextMonthDate = date;
   try {
-    const arrNextMonthBirthdays = await Employer.find({ mon })
+    const arrNextMonthBirthdays = await Employer.find({
+      mon: nextMonthDate.getMonth()
+    })
       .select('name day birthsday')
       .populate('managId', 'mgtIdx -_id')
       .collation({ locale: 'uk' })
