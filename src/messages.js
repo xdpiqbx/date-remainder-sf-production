@@ -98,7 +98,9 @@ module.exports = {
   },
   listBirthdaysForNextMonth: ({ myCamarades, others }) => {
     const date = new Date();
-    return listBirthdaysForMonth(monthes[date.getMonth() + 1], {
+    date.setMonth(date.getMonth() + 1);
+    const nextMonth = date;
+    return listBirthdaysForMonth(monthes[nextMonth.getMonth()], {
       myCamarades,
       others
     });
