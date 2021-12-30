@@ -1,4 +1,6 @@
 .env
+.env-old
+raw-data
 # Logs
 logs
 *.log
