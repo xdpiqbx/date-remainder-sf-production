@@ -15,6 +15,13 @@ const botCallbackQuery = (bot, store) => {
     const mgtIdx = store.getEmployerData('managId')?.mgtIdx ?? null;
     const status = store.getEmployerData('status');
 
+    const date = new Date();
+    console.log('----------------------------------------------------');
+    console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
+    console.log(
+      store.state.employer.name + ' === botCallbackQuery ===> ' + action
+    );
+
     switch (action) {
       case IKB.ACTIONS.SELECT_MANAGEMENT:
         const { _id: mngId } = JSON.parse(query.data);

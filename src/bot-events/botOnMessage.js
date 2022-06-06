@@ -6,22 +6,43 @@ const message = require('../messages');
 
 const botOnMessage = (bot, store) => {
   bot.on('message', async msg => {
-    if (msg.text.charAt(0) === '/') {
-      return;
-    }
+    const date = new Date();
+    console.log('----------------------------------------------------');
+    console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
 
     if (store.getEmployerData('tlg_chatId') !== msg.chat.id) {
       const empl = await api.getEmployerByChatId(msg.chat.id);
       if (!empl) {
         store.setToState(store.resetState());
+        console.log('<<< Якийсь підар влізти хотів! >>>');
+        return;
       } else {
         store.setToState({ employer: empl._doc });
       }
     }
 
-    if (!store.getEmployerData('tlg_chatId')) {
+    if (!store.state.employer._id) {
+      console.log('*** Якого хуя це спрацювало аж тут ?! ***');
       return;
     }
+
+    if (!msg.text) {
+      console.log('==================== MSG ====================');
+      log.console.log('msg: ', msg);
+      return;
+    }
+
+    console.log(
+      store.state.employer.name + ' === botOnMessage ===> ' + msg.text
+    );
+
+    if (msg.text.charAt(0) === '/') {
+      return;
+    }
+
+    // if (!store.getEmployerData('tlg_chatId')) {
+    //   return;
+    // }
 
     const { ACTION_KB } = KB;
     const options = {

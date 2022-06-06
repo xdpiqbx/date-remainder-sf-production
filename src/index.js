@@ -20,6 +20,8 @@ const bot = new TelegramBot(config.TOKEN, {
   polling: true
 });
 
+bot.on('polling_error', msg => console.log(msg));
+
 const Store = require('./Store');
 
 const store = new Store();
