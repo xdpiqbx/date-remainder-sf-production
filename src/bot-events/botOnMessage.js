@@ -14,7 +14,7 @@ const botOnMessage = (bot, store) => {
       const empl = await api.getEmployerByChatId(msg.chat.id);
       if (!empl) {
         store.setToState(store.resetState());
-        console.log('<<< Якийсь підар влізти хотів! >>>');
+        console.log(msg.chat.id + ' <<< Якийсь підар влізти хотів! >>>');
         return;
       } else {
         store.setToState({ employer: empl._doc });
@@ -22,7 +22,7 @@ const botOnMessage = (bot, store) => {
     }
 
     if (!store.state.employer._id) {
-      console.log('*** Якого хуя це спрацювало аж тут ?! ***');
+      console.log(msg.chat.id + ' *** Якого хуя це спрацювало аж тут ?! ***');
       return;
     }
 
@@ -33,16 +33,16 @@ const botOnMessage = (bot, store) => {
     }
 
     console.log(
-      store.state.employer.name + ' === botOnMessage ===> ' + msg.text
+      msg.chat.id +
+        ' ' +
+        store.state.employer.name +
+        ' === botOnMessage ===> ' +
+        msg.text
     );
 
     if (msg.text.charAt(0) === '/') {
       return;
     }
-
-    // if (!store.getEmployerData('tlg_chatId')) {
-    //   return;
-    // }
 
     const { ACTION_KB } = KB;
     const options = {

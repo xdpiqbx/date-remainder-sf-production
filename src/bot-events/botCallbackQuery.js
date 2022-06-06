@@ -19,7 +19,11 @@ const botCallbackQuery = (bot, store) => {
     console.log('----------------------------------------------------');
     console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
     console.log(
-      store.state.employer.name + ' === botCallbackQuery ===> ' + action
+      query.from.id +
+        ' ' +
+        store.state.employer.name +
+        ' === botCallbackQuery ===> ' +
+        action
     );
 
     switch (action) {

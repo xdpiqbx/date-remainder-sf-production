@@ -21,7 +21,13 @@ const botHelp = (bot, store) => {
       const date = new Date();
       console.log('----------------------------------------------------');
       console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
-      console.log(store.state.employer.name + ' === botHelp ===> ' + msg.text);
+      console.log(
+        msg.chat.id +
+          ' ' +
+          store.state.employer.name +
+          ' === botOnMessage ===> ' +
+          msg.text
+      );
 
       if (!store.getEmployerData('tlg_chatId')) {
         store.setToState({
