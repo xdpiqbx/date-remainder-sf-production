@@ -1,15 +1,12 @@
 const api = require('../db/api');
 const KB = require('../keyboards');
 const IKB = require('../inline-keyboards');
+const { logger } = require('../helpers');
 
 const message = require('../messages');
 
 const botOnMessage = (bot, store) => {
   bot.on('message', async msg => {
-    const date = new Date();
-    console.log('----------------------------------------------------');
-    console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
-
     if (store.getEmployerData('tlg_chatId') !== msg.chat.id) {
       const empl = await api.getEmployerByChatId(msg.chat.id);
       if (!empl) {
@@ -32,13 +29,7 @@ const botOnMessage = (bot, store) => {
       return;
     }
 
-    console.log(
-      msg.chat.id +
-        ' ' +
-        store.state.employer.name +
-        ' === botOnMessage ===> ' +
-        msg.text
-    );
+    logger(msg.chat.id, store.state.employer.name, 'botOnMessage', msg.text);
 
     if (msg.text.charAt(0) === '/') {
       return;

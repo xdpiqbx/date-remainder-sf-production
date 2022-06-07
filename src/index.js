@@ -38,7 +38,7 @@ const cronTimer = {
   weekDay: '*',
   month: '*',
   date: '*',
-  time: '09:00:00'
+  time: '08:30:00'
 };
 
 const cronJob = new CronJob(
@@ -49,6 +49,7 @@ const cronJob = new CronJob(
     const options = {
       parse_mode: 'HTML'
     };
+    console.log('Users count => ', tlg_chatIds.length);
     for (let chatId of tlg_chatIds) {
       bot.sendMessage(
         chatId.tlg_chatId,

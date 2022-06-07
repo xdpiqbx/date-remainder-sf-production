@@ -1,6 +1,7 @@
 const api = require('../db/api');
 const KB = require('../keyboards');
 const message = require('../messages');
+const { logger } = require('../helpers');
 
 const botStart = (bot, store) => {
   bot.onText(/^\/start/, async msg => {
@@ -18,10 +19,7 @@ const botStart = (bot, store) => {
         }
       }
 
-      const date = new Date();
-      console.log('----------------------------------------------------');
-      console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
-      console.log(store.state.employer.name + ' === botStart ===> ' + msg.text);
+      logger(msg.chat.id, store.state.employer.name, 'botStart', msg.text);
 
       if (!store.getEmployerData('tlg_chatId')) {
         store.setToState({

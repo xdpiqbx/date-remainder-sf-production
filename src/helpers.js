@@ -92,10 +92,18 @@ const apiSplitCamaradesAndOthers = (employers, mgtIdx, status) => {
   return accessRights(mgtIdx, status, myCamarades, others);
 };
 
+const logger = (id, name, from, txt) => {
+  const date = new Date();
+  console.log('----------------------------------------------------');
+  console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
+  console.log(id + ' ' + name + ' === ' + from + ' ===> ' + txt);
+};
+
 module.exports = {
   monthes,
   happyBirthsdayList,
   delay,
   getCronTimerString,
-  apiSplitCamaradesAndOthers
+  apiSplitCamaradesAndOthers,
+  logger
 };

@@ -2,6 +2,7 @@ const api = require('../db/api');
 // const KB = require('../keyboards');
 const IKB = require('../inline-keyboards');
 const message = require('../messages');
+const { logger } = require('../helpers');
 
 const botCallbackQuery = (bot, store) => {
   bot.on('callback_query', async query => {
@@ -15,15 +16,11 @@ const botCallbackQuery = (bot, store) => {
     const mgtIdx = store.getEmployerData('managId')?.mgtIdx ?? null;
     const status = store.getEmployerData('status');
 
-    const date = new Date();
-    console.log('----------------------------------------------------');
-    console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
-    console.log(
-      query.from.id +
-        ' ' +
-        store.state.employer.name +
-        ' === botCallbackQuery ===> ' +
-        action
+    logger(
+      query.from.id,
+      store.state.employer.name,
+      'botCallbackQuery',
+      action
     );
 
     switch (action) {
