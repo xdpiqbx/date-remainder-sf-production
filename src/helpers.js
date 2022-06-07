@@ -99,11 +99,20 @@ const logger = (id, name, from, txt) => {
   console.log(id + ' ' + name + ' === ' + from + ' ===> ' + txt);
 };
 
+const loggerGhost = (from, msg) => {
+  const date = new Date();
+  console.log('------------------- Unautorized user -------------------');
+  console.log(date.toLocaleString('ua', { timeZone: 'Europe/Kiev' }));
+  console.log(msg.chat.id + ' === ' + from + ' === ');
+  console.log(msg);
+};
+
 module.exports = {
   monthes,
   happyBirthsdayList,
   delay,
   getCronTimerString,
   apiSplitCamaradesAndOthers,
-  logger
+  logger,
+  loggerGhost
 };

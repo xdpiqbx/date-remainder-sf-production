@@ -1,7 +1,7 @@
 const api = require('../db/api');
 const KB = require('../keyboards');
 const IKB = require('../inline-keyboards');
-const { logger } = require('../helpers');
+const { logger, loggerGhost } = require('../helpers');
 
 const message = require('../messages');
 
@@ -11,16 +11,11 @@ const botOnMessage = (bot, store) => {
       const empl = await api.getEmployerByChatId(msg.chat.id);
       if (!empl) {
         store.setToState(store.resetState());
-        console.log(msg.chat.id + ' <<< Якийсь підар влізти хотів! >>>');
+        loggerGhost('botOnMessage', msg);
         return;
       } else {
         store.setToState({ employer: empl._doc });
       }
-    }
-
-    if (!store.state.employer._id) {
-      console.log(msg.chat.id + ' *** Якого хуя це спрацювало аж тут ?! ***');
-      return;
     }
 
     if (!msg.text) {
@@ -29,11 +24,11 @@ const botOnMessage = (bot, store) => {
       return;
     }
 
-    logger(msg.chat.id, store.state.employer.name, 'botOnMessage', msg.text);
-
     if (msg.text.charAt(0) === '/') {
       return;
     }
+
+    logger(msg.chat.id, store.state.employer.name, 'botOnMessage', msg.text);
 
     const { ACTION_KB } = KB;
     const options = {
