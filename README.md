@@ -1,6 +1,6 @@
 # PRODUCTION !
 
-## Коротенько про цього бота. 🦾
+## Briefly about this bot. 🦾
 
 ⚜️Clicking /help 🧭 will show you this message.
 
